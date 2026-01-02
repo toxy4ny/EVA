@@ -14,8 +14,8 @@ try:
     from colorama import Fore, Style, init
     import openai 
 except ImportError:
-    subprocess.run([sys.executable, "-m", "pip", "install", "colorama"])
-    subprocess.run([sys.executable, "-m", "pip", "install", "openai"])
+    subprocess.run([sys.executable, "-m", "pip", "install", "colorama", "--break-system-packages"])
+    subprocess.run([sys.executable, "-m", "pip", "install", "openai","--break-system-packages"])
     from colorama import Fore, Style, init
     from openai import OpenAI
 
