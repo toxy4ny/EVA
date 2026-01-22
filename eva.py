@@ -24,8 +24,8 @@ init(autoreset=True)
 
 # ================= CONFIG =================
 API_ENDPOINT = "NOT_SET" # <--- change to your desired endpoint if needed
-G4F_MODEL="cognitivecomputations/dolphin-mistral-24b-venice-edition:free"  
-G4F_URL="https://g4f.dev/api/openrouter/chat/completions"
+G4F_MODEL="qwen3-coder-plus"  
+G4F_URL="https://api.gpt4free.workers.dev/api/openrouter/chat/completions"
 OLLAMA_MODEL = "jimscard/whiterabbit-neo:latest" # recommended ollama model
 CONFIG_DIR = Path.home() / ".config" / "eva" # Path to save EVA files
 SESSIONS_DIR = CONFIG_DIR / "sessions" 
